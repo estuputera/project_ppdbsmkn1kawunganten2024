@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../asset/montserrat.ttf') format('ttf'), 
+         url('../asset/montserrat.ttf') format('ttf');
+
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    padding-bottom: 20px;
+    
+  }
+    
+.navbar {
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+
+}
+
+.logo {
+    width: 50px;
+}
+
+.px-3 {
+    font-family: Montserrat;
+    height: 400px;
+}
+
+.img1 {
+    width: 200px;
+    height: auto;
+    z-index: -1;
+}

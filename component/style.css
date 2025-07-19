@@ -1,0 +1,540 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../asset/montserrat.ttf') format('ttf'), 
+         url('../asset/montserrat.ttf') format('ttf');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* NAVBAR */
+
+.navbar {
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+.navbar-brand span {
+    font-size: 1.25rem;
+    margin-left: 0.5rem;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.logo {
+    width: 50px;
+}
+
+ /* CAROUSELL */
+
+.carousel-wrapper {
+    height: 700px;
+    position: relative;
+}
+
+.carousel {
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+    
+}
+.carousel-item img {
+    width: 100%;
+    min-height: 100%;
+    height:700px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.carousel-caption h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.carousel-caption .lead {
+    color: #fff;
+}
+
+.carousel-caption .btn {
+    margin-top: 10px;
+}
+
+/* INFO JURUSAN */
+
+/* .jurusan {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.jurusan div a {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 25px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-decoration: none;
+    color: inherit;
+}
+
+.jurusan div a .img-container {
+    overflow: hidden;
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+}
+
+.jurusan div a .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.jurusan div a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.jurusan div a:hover .img-container img {
+    transform: scale(1.1);
+    filter: brightness(0.9);
+}
+
+.jurusan div a .card-body {
+    padding: 10px;
+}
+
+.jurusan div a .card-body h3, .jurusan div a .card-body p {
+    margin: 0;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.jurusan div a:hover .card-body h3,
+.jurusan div a:hover .card-body p {
+    transform: scale(1.1);
+    filter: brightness(0.9);
+} */
+
+.jurusan {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.jurusan div a {
+    display: block;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 25px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-decoration: none;
+    color: inherit;
+}
+
+.jurusan div a .img-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    width: 100%;
+    height: 200px; /* Sesuaikan tinggi sesuai kebutuhan */
+}
+
+.jurusan div a .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.jurusan div a .img-container .badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.jurusan div a .img-container .badge {
+    fill: rgb(255, 0, 43); /* Warna pink untuk ikon love */
+}
+
+.jurusan div a .img-container .badge {
+    color: black; /* Warna hitam untuk jumlah love */
+    margin-left: 5px; /* Memberi jarak antara ikon dan teks */
+}
+
+.jurusan div a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.jurusan div a:hover .img-container img {
+    transform: scale(1.1);
+    filter: brightness(0.9);
+}
+
+.jurusan div a .card-body {
+    padding: 10px;
+}
+
+.jurusan div a .card-body h3, .jurusan div a .card-body p {
+    margin: 0;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.jurusan div a:hover .card-body h3,
+.jurusan div a:hover .card-body p {
+    transform: scale(1.1);
+    filter: brightness(0.9);
+}
+
+
+/* ALUR PPDB */
+
+.alur {
+    border-radius: 20px;
+}
+.alurgambar img {
+    width: 100%;
+    height: auto;
+}
+
+/* Jumlah terferivikasi */
+
+.jumlah h1 {
+    font-weight: 5vh;
+}
+.bg-dark {
+    border-radius: 5px;
+}
+
+.counter {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+.counter1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+.counter2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+.jumlah {
+    font-family: Montserrat;
+}
+.jumlah p {
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    background-color: greenyellow;
+    border-radius: 1px;
+}
+
+/* GAlery */
+
+.image {
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 50%; /* Menjaga rasio 2:1 */
+    position: relative;
+    width: 100%;
+    color: black;
+}
+
+.image img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.image:hover img {
+    opacity: 0.5;
+}
+
+.image:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    color: black;
+    font-size: 16px;
+    background-color: orange;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+
+.foots {
+    padding: 20px;
+}
+.footer1 img {
+    width: 100px;
+}
+
+.logofooter2 {
+    display: none;
+}
+
+.contact-icon {
+    width: 20px;
+    height: 20px;
+    filter: invert(49%) sepia(93%) saturate(2480%) hue-rotate(95deg) brightness(98%) contrast(98%);
+}
+
+.footerbarcode {
+    margin-top: 10px;
+    
+}
+
+.footerbarcode img{
+    border-radius: 10px;
+    padding: 20px;
+    width: 150px;
+}
+
+.footerbarcode h4{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.contact small svg {
+    width: 20px;
+}
+
+.contact small a {
+    text-decoration: none;
+
+    
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 576px) {
+    .navbar-brand img {
+        max-height: 30px;
+    }
+
+    .navbar-brand span {
+        font-size: 1rem;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        width: 100%;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.875rem;
+        display: block;
+        width: 100%;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-collapse .btn {
+        margin: 10px auto;
+    }
+
+    .logo {
+        width: 40px;
+    }
+
+    .btn {
+        font-size: 0.875rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .carousel-caption {
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-caption .lead {
+        font-size: 1rem;
+    }
+
+    .carousel-caption .btn {
+        font-size: 0.875rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .card {
+        padding: 5px;
+        border-radius: 20px;
+        height: 200px;
+    }
+    
+    .col {
+        margin-left: 10px;
+        text-decoration: none;
+    }
+    
+    .col img {
+        border-radius: 20px;
+    }
+
+    .card-body p {
+        display: none;
+    }
+
+    .card h3 {
+        font-size: medium;
+    }
+
+    .jurusan div a .img-container {
+        height: 120px; /* Tinggi gambar untuk layar sangat kecil */
+    }
+
+    .alurgambar img {
+        width: 100%;
+        height: auto;
+    }
+
+    .titlefooter h2 {
+        z-index: -1;
+    }
+
+    .logofooter2 {
+        display: block;
+        position: static;
+        width: 50px;
+    }
+
+    .footerbarcode div {
+        margin-top: 10px;
+        width: 100%;
+        height: 160px;
+    }
+
+
+    .footerbarcode div img {
+        height: 150px;
+    }
+
+    .footerbarcode div h4 {
+        position: absolute;
+       width: 180px;
+       right: 50px;
+       bottom: 47px;
+
+    }
+
+
+
+    
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        max-height: 35px;
+    }
+
+    .navbar-brand span {
+        font-size: 1.125rem;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 0.75rem 1.25rem;
+    }
+    
+    .carousel-caption {
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption .lead {
+        font-size: 1.125rem;
+    }
+
+    .carousel-caption .btn {
+        font-size: 1rem;
+        padding: 0.75rem 1.25rem;
+    }
+
+    .jurusan div a .img-container {
+        height: 150px; /* Tinggi gambar untuk layar kecil */
+    }
+
+    .alurgambar img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footerbarcode {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .footerbarcode h3 {
+        display: none;
+    }
+    
+
+}
